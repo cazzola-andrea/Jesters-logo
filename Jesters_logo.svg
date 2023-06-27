@@ -48,7 +48,7 @@
 
       .text-style {
       font-family: monospace;
-      font-size: 850%;
+      font-size: 900%;
       fill: #fff;
       text-anchor: middle;
       }
