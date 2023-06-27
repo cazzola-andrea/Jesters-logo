@@ -2,42 +2,42 @@
   <defs>
     <style>
       .img-bkg {
-        fill: none;
+      fill: none;
       }
       .cls-1, .cls-4, .cls-5, .cls-6, .cls-7 {
-        fill: none;
+      fill: none;
       }
 
       .cls-1, .cls-2, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
-        stroke: #fff;
+      stroke: #fff;
       }
 
       .cls-1 {
-        stroke-width: 5px;
+      stroke-width: 5px;
       }
 
       .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
-        fill-rule: evenodd;
+      fill-rule: evenodd;
       }
 
       .cls-2, .cls-3, .cls-8 {
-        fill: #fff;
+      fill: #fff;
       }
 
       .cls-2, .cls-6 {
-        stroke-width: 4px;
+      stroke-width: 4px;
       }
 
       .cls-4 {
-        stroke-width: 12px;
+      stroke-width: 12px;
       }
 
       .cls-5 {
-        stroke-width: 2px;
+      stroke-width: 2px;
       }
 
       .cls-7, .cls-8 {
-        stroke-width: 6px;
+      stroke-width: 6px;
       }
     </style>
   </defs>
