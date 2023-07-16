@@ -61,12 +61,12 @@
   <!-- center: 1150/2, 1150/2, radius 460, angles 150, 30, draw the small arc, counter-clockwise -->
   <path id="name-path" d="M 176.628 345 A 460 460 0 0 1 973.372 345" style="fill:none; stroke:none;"/>
   <text id="team-name">
-    <textPath id="Name" startOffset="50%" class="text-style" font-size="800%" xlink:href="#name-path">JESTERS</textPath>
+    <textPath id="Name" startOffset="50%" class="text-style" font-size="104px" xlink:href="#name-path">JESTERS</textPath>
   </text>
   <!-- center: 1150/2, 1150/2, radius 480, angles 185, 355, draw the small arch, clockwise -->
   <path id="motto-path" d="M 96.827 616.835 A 480 480 0 0 0 1053.173,616.835" style="fill:none; stroke:none;"/>
   <text id="motto-name">
-    <textPath id="Motto" startOffset="50%" class="text-style" font-size="450%" xlink:href="#motto-path">ALL THE GEAR AND NONE OF THE SKILLS</textPath>
+    <textPath id="Motto" startOffset="50%" class="text-style" font-size="58.5" xlink:href="#motto-path">ALL THE GEAR AND NONE OF THE SKILLS</textPath>
   </text>
   <svg width="838" height="797" viewBox="10 0 838 797" x="156" y="15.5%">
     <path id="Nose_wide" data-name="Nose wide" class="cls-1" d="M394,506s2.459,50.775-9,61c-6.642.692-16.491,4.442-16,14s4.51,14.975,13,17c7.874,3.258,38,12,38,12m35-104s-2.459,50.775,9,61c6.642,0.692,16.491,4.442,16,14s-4.51,14.975-13,17c-7.874,3.258-38,12-38,12"/>
