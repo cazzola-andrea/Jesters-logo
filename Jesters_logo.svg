@@ -48,20 +48,28 @@
 
       .text-style {
       font-family: monospace;
-      font-size: 1100%;
+      font-size: 450%;
       fill: #fff;
       text-anchor: middle;
+      dominant-baseline: central;
+      font-weight: bold;
       }
 
     </style>
   </defs>
   <rect id="background-remove" width="100%" height="100%" class="img-bkg"/>
   <circle id="Background-round" class="badge-bkg" cx="50%" cy="50%" r="530" />
-  <path id="team-path" d="M 256.802,893.198 A 450 450 0 0 0 893.198,893.198" style="fill:none; stroke:none;"/>
+  <!-- center: 1150/2, 1150/2, radius 480, angles 150, 30, draw the small arc, counter-clockwise -->
+  <path id="name-path" d="M 159.307 335 A 480 480 0 0 1 990.692 335" style="fill:none; stroke:none;"/>
   <text id="team-name">
-    <textPath id="Name" startOffset="50%" class="text-style" xlink:href="#team-path">Jesters</textPath>
+    <textPath id="Name" startOffset="50%" class="text-style" xlink:href="#name-path">JESTERS</textPath>
   </text>
-  <svg width="838" height="797" viewBox="10 0 838 797" x="156" y="8%">
+  <!-- center: 1150/2, 1150/2, radius 480, angles 185, 355, draw the small arch, clockwise -->
+  <path id="motto-path" d="M 96.827 616.835 A 480 480 0 0 0 1053.173,616.835" style="fill:none; stroke:none;"/>
+  <text id="motto-name">
+    <textPath id="Motto" startOffset="50%" class="text-style" xlink:href="#motto-path">ALL THE GEAR AND NONE OF THE SKILLS</textPath>
+  </text>
+  <svg width="838" height="797" viewBox="10 0 838 797" x="156" y="14%">
     <path id="Nose_wide" data-name="Nose wide" class="cls-1" d="M394,506s2.459,50.775-9,61c-6.642.692-16.491,4.442-16,14s4.51,14.975,13,17c7.874,3.258,38,12,38,12m35-104s-2.459,50.775,9,61c6.642,0.692,16.491,4.442,16,14s-4.51,14.975-13,17c-7.874,3.258-38,12-38,12"/>
     <path id="Mouth" class="cls-1" d="M381,659l24-13s22.891,9.323,41,0c12.728,6.644,27,15,27,15s-2.075,10.673-16,11-19.909-3.894-28-4-18.976,5.023-25,5S388.834,675.017,381,659Z"/>
     <path id="Face_mid" data-name="Face mid" class="cls-1" d="M518,349s21.153,31.849,19,89c6.181,4.917,29,24,29,24l-12,36s51.717,69.621-24,127a106.775,106.775,0,0,1-5,18l-17,12-1,60s1.8,15.036-15,24c-5.111,4.852-38.867,38.281-67,31s-70-28-70-28-7.777-15.786-9-33-2-58-2-58l-18-11-2-13s-79.154-66.357-27-133c-6.045-19.575-13-38-13-38l28-18s-5.358-67.662,20-92c12.181-2.494,75.53-13.484,91-12S518,349,518,349Z"/>
